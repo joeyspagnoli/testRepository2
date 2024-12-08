@@ -1,0 +1,37 @@
+{
+    "tables": {
+        "test_measure": {
+            "columns": {
+                "time": {
+                    "sdtype": "numerical"
+                },
+                "Speed": {
+                    "sdtype": "numerical"
+                },
+                "HR": {
+                    "sdtype": "numerical"
+                },
+                "VO2": {
+                    "sdtype": "numerical"
+                },
+                "VCO2": {
+                    "sdtype": "numerical"
+                },
+                "RR": {
+                    "sdtype": "numerical"
+                },
+                "VE": {
+                    "sdtype": "numerical"
+                },
+                "ID_test": {
+                    "sdtype": "categorical"
+                },
+                "ID": {
+                    "sdtype": "numerical"
+                }
+            }
+        }
+    },
+    "relationships": [],
+    "METADATA_SPEC_VERSION": "V1"
+}
