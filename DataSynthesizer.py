@@ -5,7 +5,7 @@ import os
 import pandas as pd
 
 
-data = pd.read_csv("C:\\Users\\jspag\\PycharmProjects\\syntheticModelTest\\files\\test_measure_hr.csv")
+data = pd.read_pickle('test_measure_hr.pkl')
 
 
 metadata_path = "HR_Only_path_to_metadata.json"
@@ -21,7 +21,7 @@ synthesizer = CTGANSynthesizer.load(
     filepath='my_CTGAN_synthesizer.pkl'
 )
 
-synthetic_data = synthesizer.sample(num_rows=10000000)
+synthetic_data = synthesizer.sample(num_rows=576000)
 
 # Define the target directory and base file name
 output_dir = r"C:\Users\jspag\PycharmProjects\syntheticModelTest\files"
