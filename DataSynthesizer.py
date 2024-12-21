@@ -5,10 +5,10 @@ import os
 import pandas as pd
 
 
-data = pd.read_pickle('test_measure_hr.pkl')
+data = pd.read_pickle('')
 
 
-metadata_path = "HR_Only_path_to_metadata.json"
+metadata_path = ""
 
 try:
     metadata = Metadata.load_from_json(metadata_path)
